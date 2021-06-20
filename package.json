@@ -1,0 +1,23 @@
+{
+  "name": "simple_js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "start": "webpack serve",
+    "test": "jest"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^27.0.4",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
